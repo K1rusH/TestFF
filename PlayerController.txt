@@ -9,7 +9,7 @@ class PlayerController
 	{
 		if (5>3)
 		{
-			print("Good!")	
+			anim.SetBool("jump", true);
 		}
 	}
 }
