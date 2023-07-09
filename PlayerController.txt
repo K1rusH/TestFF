@@ -4,4 +4,12 @@ class PlayerController
 	{
 		print("Hellow world!")
 	}
+
+	void Update()
+	{
+		if (5>3)
+		{
+			print("Good!")	
+		}
+	}
 }
