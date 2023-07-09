@@ -2,18 +2,19 @@ class PlayerController
 {
 	void Start()
 	{
-		print("Hellow world!")
+		print("Hellow world!");
 	}
 
 	void Update()
 	{
 		if (5>3)
 		{
-			print("Good!")	
+			print("Good!");
 		}
 		if(shoot)
 		{
-		 print("Пуля летит... фух!")
+		 print("Пуля летит... фух!");
+		sound = "brbr";
 		}
 	}
 }
